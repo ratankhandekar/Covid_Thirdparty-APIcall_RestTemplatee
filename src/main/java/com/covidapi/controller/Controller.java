@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.covidapi.Dto.CovidDetails;
 import com.covidapi.service.Services;
-
+//controller
 @RestController
 public class Controller {
 	@Autowired

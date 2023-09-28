@@ -16,7 +16,7 @@ public class Services {
 
 	public String consumAPI()
 	{
-		return restTemplate.getForObject("https://dummyjson.com/products/1", 
+		return restTemplate.getForObject("https://api.covidtracking.com/v1/us/current.json", 
 				String.class);
 	}
 

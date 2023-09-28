@@ -30,6 +30,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>CovidApp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
