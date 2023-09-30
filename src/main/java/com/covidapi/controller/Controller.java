@@ -16,14 +16,14 @@ public class Controller {
 	Services service;
 
 	
-	//give result in TEXT formatt:
+	//give result in TEXT formatt:index file added
 	@GetMapping("/")
 	String add()
 	{
 		return service.consumAPI();
 	}
 
-	//result in JSON formatt:
+	//result in JSON formatt:dwcwc
 	@GetMapping("a")
 	ResponseEntity<CovidDetails> getData() {
 
