@@ -14,7 +14,7 @@ import com.covidapi.service.Services;
 public class Controller {
 	@Autowired
 	Services service;
-
+//this is what
 	
 	//give result in TEXT formatt:index file added
 	@GetMapping("/")
